@@ -23,7 +23,8 @@ jobs:
       run: |
         curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- -y --default-toolchain leanprover/lean4:4.3.0
         echo "$HOME/.elan/bin" >> $GITHUB_PATH
-        lake --version || (curl https://raw.githubusercontent.com/leanprover/lake/master/lake-install.sh -sSf | sh -s --)
+        # Force reinstall Lake to ensure latest version
+        curl https://raw.githubusercontent.com/leanprover/lake/master/lake-install.sh -sSf | sh -s --
 
     # Update dependencies (including mathlib)
     - name: Update Lake dependencies
