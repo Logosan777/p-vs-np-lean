@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software as below."
+authors:
+  - family-names: Ednyashev
+    given-names: Sanal
+title: "Formal Proofs of P ≠ NP, Riemann Hypothesis, and Hodge Conjecture (Simplified Model) in Lean 4 (Version 1)"
+version: 1.0
+doi: 10.5281/zenodo.XXXX
+date-released: 2025-04-29
+license: CC-BY-ND-4.0
+keywords:
+  - P vs NP
+  - Riemann Hypothesis
+  - Hodge Conjecture
+  - Lean 4
