@@ -1,0 +1,13 @@
+package.name = "pnp_proof"
+package.version = "0.1"
+package.lean_version = "leanprover/lean4:nightly"
+
+[package]
+  description = "Formal proof of NP ≠ PSPACE (Version 3)"
+
+[dependencies]
+  mathlib = { git = "https://github.com/leanprover-community/mathlib4" }
+
+[[lean_lib]]
+  name = "PNPProof"
+  globs = ["PNP_Proof_v3/*.lean"]
