@@ -7,6 +7,7 @@ package pnp_lean {
 }
 
 @[default_target]
-lean_lib PNPLean where
+lean_lib PNPLean {
   srcDir := "."
   roots := #[``PNP_Proof_v3, ``Riemann_Hypothesis, ``Hodge_Conjecture]
+}
