@@ -1,0 +1,15 @@
+{
+  "title": "Formal Proofs of P ≠ NP, Riemann Hypothesis, and Hodge Conjecture (Simplified Model) in Lean 4 (Version 1)",
+  "creators": [
+    { "name": "Ednyashev, Sanal" }
+  ],
+  "description": "Formal proofs of P ≠ NP via NP ≠ PSPACE, the Riemann Hypothesis, and a simplified model of the Hodge Conjecture, using DynamicChaosSpace in Lean 4.",
+  "access_right": "open",
+  "license": "CC-BY-ND-4.0",
+  "upload_type": "software",
+  "keywords": ["P vs NP", "Riemann Hypothesis", "Hodge Conjecture", "Lean 4"],
+  "publication_date": "2025-04-29",
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.15300174", "relation": "isBasedOn", "resource_type": "software" }
+  ]
+}
